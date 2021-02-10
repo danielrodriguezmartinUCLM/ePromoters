@@ -1,22 +1,25 @@
 #!/usr/bin/env python2.7
 
-import matplotlib
-matplotlib.use('Agg')
-import sys
-import os
-from collections import OrderedDict
+import matplotlib #es una biblioteca completa para crear visualizaciones estáticas, animadas e interactivas en Python.
+matplotlib.use('Agg') # solo procesa archivos PNG.
+import sys # El módulo sys proporciona información sobre constantes, funciones y métodos del intérprete de Python.
+import os # proporciona funciones sencillas que nos permiten interactuar y obtener información del sistema operativo e incluso controlar los procesos hasta un límite.
+from collections import OrderedDict # •	Un orderedDict es una subclase de diccionario que recuerda el orden en que se agregan sus contenidos.
 import operator 
 
 import pybedtools as pbt
-import metaseq
-import numpy as np
-from scipy import interpolate
-from scipy.optimize import curve_fit
-from matplotlib.backends.backend_pdf import PdfPages
-import pylab as P
+# El conjunto de programas BEDTools se utiliza ampliamente para la manipulación del intervalo genómico o "álgebra del genoma". 
+# Pybedtools envuelve y amplía BEDTools y ofrece manipulaciones a nivel de función desde Python.
+import metaseq # El objetivo de metaseq es unir una gran cantidad de software existente en un marco para explorar datos genómicos.
+import numpy as np # NumPy se utiliza para trabajar con matrices.
+from scipy import interpolate # Scipy es el paquete científico, y de él importamos interpolar.
+from scipy.optimize import curve_fit # SciPy.optimize proporciona funciones para minimizar (o maximizar) funciones objetivas, posiblemente sujetas a restricciones.
+
+from matplotlib.backends.backend_pdf import PdfPages # Un backend de PDF matplotlib.
+import pylab as P # pylab proporciona una interfaz orientada a objetos a la biblioteca de trazado Matplotlib cercano a Matlab™.
 import scipy
 import training
-import testData
+import testData # Un paquete simple que genera datos para pruebas
 
 def readMetaProfile(metaProfileFile):
 	metaProfile = []

@@ -4,7 +4,7 @@ import matplotlib #es una biblioteca completa para crear visualizaciones estáti
 matplotlib.use('Agg') # solo procesa archivos PNG.
 import sys # El módulo sys proporciona información sobre constantes, funciones y métodos del intérprete de Python.
 import os # proporciona funciones sencillas que nos permiten interactuar y obtener información del sistema operativo e incluso controlar los procesos hasta un límite.
-from collections import OrderedDict # •	Un orderedDict es una subclase de diccionario que recuerda el orden en que se agregan sus contenidos.
+from collections import OrderedDict # Un orderedDict es una subclase de diccionario que recuerda el orden en que se agregan sus contenidos.
 import operator 
 
 import pybedtools as pbt

@@ -1,24 +1,16 @@
 
 
-scanMatchedFilter.py scans the whole genome with matched filter and applies the SVM model using training data provided with the code to predict enhancers and promoters in a cell-type specific manner.
+scanMatchedFilter.py escanea todo el genoma con un filtro emparejado y aplica el modelo SVM utilizando los datos de entrenamiento proporcionados con el código para predecir potenciadores y promotores de una manera específica del tipo de célula.
+python scanMatchedFilter.py
 
-python scanMatchedFilter.py <fileList> <metaProfileList> <chrNameList> <peakFileList> <opPrefix>
+dónde:
 
-where:
-
-	<fileList> is a file with the list of chromatin signals in the format (2 column tab delimited with experimental dataset name in column 1 and filename in column 2). The chromatin signals are in log foldchange signal signal enrichment over control.
-
-	<metaProfileList> is the list with training profiles. This is a tab-delimited 2 column file with the first column containing experimental dataset name (for example, H3K4me1) and the 2nd column containing file name with metaprofile (provided in subdirectory metaprofiles).
-
-	<chrNameList> is the list with chromosome names. The first column contains chromosome name and 2nd column contains length of chromosome.
+	<fileList> es un archivo con la lista de señales de cromatina en el formato (pestaña de 2 columnas delimitada con el nombre del conjunto de datos experimental en la columna 1 y el nombre del archivo en la columna 2). Las señales de cromatina están en el enriquecimiento de la señal de la señal de cambio logarítmico sobre el control.
+	<metaProfileList> es la lista con perfiles de entrenamiento. Este es un archivo de 2 columnas delimitado por tabuladores con la primera columna que contiene el nombre del conjunto de datos experimental (por ejemplo, H3K4me1) y la segunda columna que contiene el nombre del archivo con metaperfil (proporcionado en los metaperfiles del subdirectorio).
+	<chrNameList> es la lista con los nombres de los cromosomas. La primera columna contiene el nombre del cromosoma y la segunda columna contiene la longitud del cromosoma.
+	<peakFileList> es el archivo con picos de cromatina. Estas regiones se eliminan durante el ajuste del modelo de fondo.
+	<positiveScores> es el archivo que contiene las puntuaciones de todos los aspectos positivos del entrenamiento, que se proporciona en el directorio de datos de entrenamiento.
+	<negativeScores> es el archivo que contiene las puntuaciones de todos los negativos de entrenamiento, que se proporciona en el directorio de datos de entrenamiento.
+	<opPrefix> es el prefijo para todos los archivos de salida.
 	
-	<peakFileList> is the file with chromatin peaks. These regions are removed during background model fitting.
-	
-	<positiveScores> is the file containing the scores for all training positives, provided in the training data directory.
-	
-	<negativeScores> is the file containing the scores for all training negatives, provided in the training data directory.
-
-	<opPrefix> is the prefix for all output files.
-
-	The final output file test_SVMpredScores.dat contains the SVM scores and predictions.
-	
+El archivo de salida final test_SVMpredScores.dat contiene las puntuaciones y predicciones de SVM.

@@ -3,18 +3,30 @@
 Introducción de librerías necesarias
 
 •	Matplotlib ---> es una biblioteca completa para crear visualizaciones estáticas, animadas e interactivas en Python.
+
 •	Matplotlib.use('Agg') ---> solo procesa archivos PNG.
+
 •	Sys ---> El módulo sys proporciona información sobre constantes, funciones y métodos del intérprete de Python.
+
 •	Os ---> proporciona funciones sencillas que nos permiten interactuar y obtener información del sistema operativo e incluso controlar los procesos hasta un límite.
+
 •	Un orderedDict es una subclase de diccionario que recuerda el orden en que se agregan sus contenidos.
+
 •	El conjunto de programas BEDTools se utiliza ampliamente para la manipulación del intervalo genómico o "álgebra del genoma". Pybedtools envuelve y amplía BEDTools 
   y ofrece manipulaciones a nivel de función desde Python.
+  
 •	El objetivo de metaseq es unir una gran cantidad de software existente en un marco para explorar datos genómicos.
+
 •	NumPy se utiliza para trabajar con matrices.
+
 •	Scipy es el paquete científico, y de él importamos interpolar.
+
 •	SciPy.optimize proporciona funciones para minimizar (o maximizar) funciones objetivas, posiblemente sujetas a restricciones.
+
 •	Un backend de PDF matplotlib.
+
 •	pylab proporciona una interfaz orientada a objetos a la biblioteca de trazado Matplotlib cercano a Matlab™.
+
 •	testData ---> Un paquete simple que genera datos para pruebas.
 
 

@@ -3,6 +3,8 @@
 scanMatchedFilter.py escanea todo el genoma con un filtro emparejado y aplica el modelo SVM utilizando los datos de entrenamiento proporcionados con el código para predecir potenciadores y promotores de una manera específica del tipo de célula.
 python scanMatchedFilter.py
 
+prueba de edición
+
 dónde:
 
 	<fileList> es un archivo con la lista de señales de cromatina en el formato (pestaña de 2 columnas delimitada con el nombre del conjunto de datos experimental en la columna 1 y el nombre del archivo en la columna 2). Las señales de cromatina están en el enriquecimiento de la señal de la señal de cambio logarítmico sobre el control.

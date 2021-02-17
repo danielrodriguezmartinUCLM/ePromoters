@@ -1,0 +1,1 @@
+negativeScores:  file containing the scores for all training negatives, provided in the training data directory. Link: https://github.com/gersteinlab/MatchedFilter/blob/master/Training/S2_H3K27ac_negatives_MFscores.bed 

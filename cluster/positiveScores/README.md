@@ -1,0 +1,1 @@
+positiveScores: file containing the scores for all training positives, provided in the training data directory. Link: https://github.com/gersteinlab/MatchedFilter/blob/master/Training/S2_H3K27ac_positives_MFscores.bed 

@@ -1,0 +1,6 @@
+H3K27ac	/mnt/Citosina/amedina/ePromoters/data/codes/MetaProfile/S2_H3K27ac_metaProfile.dat
+H3K4me1	/mnt/Citosina/amedina/ePromoters/data/codes/MetaProfile/S2_H3K27ac_H3K4me1_metaProfile.dat	
+H3K4me2	/mnt/Citosina/amedina/ePromoters/data/codes/MetaProfile/S2_H3K27ac_H3K4me2_metaProfile.dat
+H3K4me3	/mnt/Citosina/amedina/ePromoters/data/codes/MetaProfile/S2_H3K27ac_H3K4me3_metaProfile.dat
+H3K9ac	/mnt/Citosina/amedina/ePromoters/data/codes/MetaProfile/S2_H3K27ac_H3K9ac_metaProfile.dat
+DHS	/mnt/Citosina/amedina/ePromoters/data/codes/MetaProfile/S2_H3K27ac_DHS_metaProfile.dat

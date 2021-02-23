@@ -1,0 +1,6 @@
+H3K27ac /mnt/Citosina/amedina/ePromoters/data/bed/HeLa/H3K27ac.bed
+H3K4me1	/mnt/Citosina/amedina/ePromoters/data/bed/HeLa/H3K4me1.bed
+H3K4me2	/mnt/Citosina/amedina/ePromoters/data/bed/HeLa/H3K4me2.bed
+H3K4me3	/mnt/Citosina/amedina/ePromoters/data/bed/HeLa/H3K4me3.bed
+H3K9ac	/mnt/Citosina/amedina/ePromoters/data/bed/HeLa/H3K9ac.bed
+DHS	/mnt/Citosina/amedina/ePromoters/data/bed/HeLa/DHS.bed
